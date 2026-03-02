@@ -1,6 +1,6 @@
 # Manga Renamer
 
-A Python script that watches a downloads directory, renames `.cbz` manga and webcomic chapter files to a consistent format, and moves them into the correct library folder. Runs on a schedule via Docker using `renamer-compose.yml`. It is meant to be used with Tachdesk to automate the download, renaming and adding to your library of manga and webtoons. 
+A Python script that watches a downloads directory, renames `.cbz` manga and webcomic chapter files to a consistent format, and moves them into the correct library folder. Runs on a schedule via Docker using `renamer-compose.yml`. It is meant to be used with Tachidesk to automate the download, renaming and adding to your library of manga and webtoons.
 
 ---
 
@@ -74,3 +74,11 @@ Update paths in `renamer-compose.yml` to match your server's directory layout be
 |------|-------------|
 | [scripts](https://github.com/Treyzer567/scripts) | Other standalone media mover scripts |
 | [landing-page](https://github.com/Treyzer567/landing-page) | Frontend hub |
+
+---
+
+## External Projects
+
+| Project | Description |
+|---------|-------------|
+| [Tachidesk (Suwayomi)](https://github.com/Suwayomi/Suwayomi-Server) | Self-hosted Tachiyomi-compatible manga server — source of the downloaded `.cbz` files |
